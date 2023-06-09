@@ -7,10 +7,9 @@ import Cacao1 from "../app/images/Cacao1.jpg";
 
 export default function Home() {
   return (
-    <div className={styles.container}>
+    <div className={styles.contents}>
       <header className={styles.header}>
-        <Image src={Cacao} alt="カカオ" />
-        {/* <img src="images/Cacao2.icon" alt="カカオ" /> */}
+        <Image className={styles.headerImg} src={Cacao} alt="カカオ" />
       </header>
       <div className={styles.title}>
         <h1 className={styles.name}>チョコレート検定</h1>
