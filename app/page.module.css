@@ -46,4 +46,11 @@
   text-decoration: none;
   font-size: 450%;
   box-shadow: 8px 8px 0 #bbb;
+  border-radius: 50px;
+}
+
+.button:hover {
+  background-color: rgb(205, 65, 65);
+  box-shadow: none;
+  transform: translate(2px, 2px);
 }
