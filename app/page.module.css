@@ -8,32 +8,34 @@
   display: flex;
   color: maroon;
   text-align: center;
-  font-size: 45px;
-  margin-top: 8%;
-  margin-left: 20%;
-  /* justify-content: center;
-  align-items: center; */
+  font-size: 60px;
+  margin-top: 150px;
+  margin-left: 30px;
+  margin-bottom: 100px;
+  /* text-shadow: 15px 10px 0 #ccc; */
+  justify-content: center;
+  align-items: center;
 }
 
 .img {
   width: 200px;
-  height: 300px;
-  margin-left: 10%;
+  height: 230px;
+  margin-left: 30px;
   border-radius: 50%;
   object-fit: cover;
 }
 
 .button {
-  background: rgb(170, 95, 95);
   color: aliceblue;
-  width: 200px;
-  padding: 5px 15px;
-  text-align: center;
+  font-weight: bolder;
+  padding: 15px 10px;
+  background: rgb(159, 65, 65);
   font-size: 25px;
   letter-spacing: 15px;
   text-decoration: none;
   margin-left: 40%;
-  /* justify-content: center;
-  align-items: center; */
-  font-size: 350%;
+  font-size: 450%;
+  box-shadow: 8px 8px 0 #bbb;
+  justify-content: center;
+  align-items: center;
 }
