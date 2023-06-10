@@ -15,7 +15,7 @@ export default function Home() {
         <h1 className={styles.name}>チョコレート検定</h1>
         <Image className={styles.img} src={Cacao1} alt="チョコレート" />
       </div>
-      <Link className={styles.button} href={"../overview"}>
+      <Link className={styles.button} href={"../Item"}>
         START
       </Link>
     </div>
