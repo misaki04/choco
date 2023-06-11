@@ -3,8 +3,7 @@ import Header from "@/app/components/Header";
 import styles from "./page.module.css";
 import Link from "next/link";
 
-const page = (props) => {
-  console.log("propsで運ばれたものだよ", props);
+const page = () => {
   return (
     <div>
       <Header title={"スペシャリスト(初級)"} />
